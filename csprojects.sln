@@ -5,9 +5,11 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aquaapi", "aquaapi\aquaapi.csproj", "{4FF21AE2-B54B-43DA-B3CF-FF3353C53FD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PadelStats.Import", "PadelStats.Import\PadelStats.Import.csproj", "{F15A203B-8244-4B05-B171-DA40C7FCFB8F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PadelStats.Import.PdfToCSV", "PadelStats.Import.PdfToCSV\PadelStats.Import.PdfToCSV.csproj", "{94BBFC08-AA95-4639-9083-D19744F1897A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dockerfiles", "Dockerfiles", "{32591260-D9E3-4415-995A-79432B4B744B}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,6 @@ Global
 		{4FF21AE2-B54B-43DA-B3CF-FF3353C53FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF21AE2-B54B-43DA-B3CF-FF3353C53FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FF21AE2-B54B-43DA-B3CF-FF3353C53FD1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F15A203B-8244-4B05-B171-DA40C7FCFB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F15A203B-8244-4B05-B171-DA40C7FCFB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F15A203B-8244-4B05-B171-DA40C7FCFB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F15A203B-8244-4B05-B171-DA40C7FCFB8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94BBFC08-AA95-4639-9083-D19744F1897A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94BBFC08-AA95-4639-9083-D19744F1897A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94BBFC08-AA95-4639-9083-D19744F1897A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94BBFC08-AA95-4639-9083-D19744F1897A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
